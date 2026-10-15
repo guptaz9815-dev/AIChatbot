@@ -1,0 +1,12 @@
+{% extends "base.html" %}{% block title %}Smart customer support{% endblock %}
+{% block content %}
+<section class="hero">
+  <div class="hero-copy"><span class="eyebrow">YOUR SUPPORT, REIMAGINED</span><h1>Support that feels<br><span>more human.</span></h1>
+  <p>Meet your AI assistant: instant answers, helpful conversations, and a smoother support experience—day or night.</p>
+  <div class="actions"><a class="btn" href="{{ url_for('register') }}">Get started →</a><a class="btn btn-outline" href="{{ url_for('login') }}">Sign in</a></div>
+  <div class="hero-points"><span>✓ Quick answers</span><span>✓ Conversation history</span><span>✓ Helpful feedback</span></div></div>
+  <div class="hero-art"><div class="orb orb1"></div><div class="orb orb2"></div><div class="bot-face"><span class="antenna"></span><div class="eyes"><i></i><i></i></div><div class="smile"></div></div><div class="float-card card-one">✦ &nbsp; How can I help today?</div><div class="float-card card-two">● &nbsp; Here to help, 24/7</div></div>
+</section>
+<section class="section"><div class="section-heading"><span class="eyebrow">MADE FOR BETTER SUPPORT</span><h2>Everything in one place</h2><p>Simple tools for customers and clear insights for administrators.</p></div>
+<div class="feature-grid"><article class="feature"><div class="feature-icon">☏</div><h3>Natural conversations</h3><p>Ask questions in plain language and get clear, relevant responses.</p></article><article class="feature"><div class="feature-icon">◷</div><h3>Conversation history</h3><p>Return to past conversations and keep important answers close.</p></article><article class="feature"><div class="feature-icon">▥</div><h3>Actionable insights</h3><p>Admins can review interaction volume, user activity, and feedback.</p></article></div></section>
+{% endblock %}
